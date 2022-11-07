@@ -21,7 +21,7 @@ h = (hasil[0][3])
 for (x,y,w,h) in hasil:
     cv.rectangle(foto, (x,y), (x+w,y+h), color=(0,225,0), thickness=5)
 
-cv.imshow("Foto Presiden RI 2", foto)
+cv.imshow("Mendeteksi Wajah", foto)
 cv.imwrite("hasil-deteksi.jpg", foto)
 cv.waitKey(0)
 cv.destroyAllWindows()
