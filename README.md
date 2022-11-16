@@ -34,9 +34,9 @@ pip install -r requirement.txt
 7. Ganti kata `env` di file main.py, Sesuai dengan nama Virtual Environment yang dibuat:
 <img src="gambar/edit.png">
 
-7. Masukan `File Gambar` ke folder gambar
+8. Masukan `File Gambar` ke folder gambar
 
-8. Lalu, jalankan program nya:
+9. Lalu, jalankan program nya:
 ```
 python3 main.py gambar/<path-file>
 ```
