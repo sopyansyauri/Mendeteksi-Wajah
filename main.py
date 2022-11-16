@@ -1,6 +1,8 @@
 import cv2 as cv
+import sys
 
-foto = cv.imread("gambar/upacara1.jpeg")
+file = sys.argv[1]
+foto = cv.imread(file)
 foto_gray = cv.cvtColor(foto, cv.COLOR_BGR2GRAY)
 
 cc_wajah = cv.CascadeClassifier("env/lib/python3.10/site-packages/cv2/data/haarcascade_frontalface_alt.xml")
